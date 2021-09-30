@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+#headerimage {
+    width: 100%;
+    height: auto;
+    border-top-width: 200px;
+}
+
+h1 {
+    color: purple;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: purple;
+    font-family: 'Times New Roman', Times, serif
+}
+
+h6 {
+    font-family: 'Times New Roman', Times, serif
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    background-color: #45115c;
+}
+
+.youtubevideo {
+    margin: 0 auto;
+    display: block;
+    width: 560;
+    height: 500;
+}
+
+.resourcevideo {
+    width: 560;
+    height: 500;
+    display: block;
+    margin: 0 auto;
+}
+
+.img-container {
+    width: 250px;
+    color: white;
+}
+
+.img-container img {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+.img-container a:visited {
+    color: white;
+}
+
+.img-container a:hover {
+    color: greenyellow;
+}
+
+.imgcontain {
+    color: black;
+    width: 250px;
+}
+
+.figure {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.content {
+    flex-grow: 1;
+    background-color: white;
+    padding: 10px;
+}
+
+p {
+    font-family: Times, "Times New Roman", serif;
+}
+
+nav {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #45115c;
+    width: 100%;
+    color: white;
+}
+
+form {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 200px;
+    align-content: center;
+    color: purple;
+    font-weight: bold;
+    background-color: white;
+    margin: 0 auto;
+}
+
+label input {
+    display: block;
+}
+
+label {
+    margin-bottom: 20px;
+}
+
+nav a:hover {
+    color: greenyellow;
+}
+
+table {
+    margin: 0 auto;
+    background-color: plum;
+    border: 1px solid purple;
+}
+
+table td {
+    border: 1px solid black;
+    margin: 0 auto;
+    padding-right: 5px;
+    background-color: plum;
+    color: purple;
+}
+
+thead tfoot {
+    background-color: black;
+    color: plum;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer a:visited {
+    color: white;
+}
+
+footer a:hover {
+    color: greenyellow;
+}
